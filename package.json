@@ -1,0 +1,10 @@
+{
+  "name": "nx-peer-snapshot-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Public-package-only reproduction of pnpm importer peer snapshot loss in Nx serialization",
+  "engines": { "node": ">=24" },
+  "packageManager": "pnpm@10.18.3",
+  "scripts": { "test": "node reproduce.cjs --assert", "diagnose": "node reproduce.cjs --diagnose" },
+  "dependencies": { "nx": "23.2.1" }
+}

@@ -1,0 +1,4 @@
+node_modules/
+.nx/
+fixtures/source/node_modules/
+fixtures/source/other/node_modules/
